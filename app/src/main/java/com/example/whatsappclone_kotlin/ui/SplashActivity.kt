@@ -1,4 +1,4 @@
-package com.example.whatsappclone_kotlin
+package com.example.whatsappclone_kotlin.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +10,7 @@ import com.example.whatsappclone_kotlin.databinding.ActivitySplashBinding
 
 
 private lateinit var binding: ActivitySplashBinding
+import com.example.whatsappclone_kotlin.R
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
