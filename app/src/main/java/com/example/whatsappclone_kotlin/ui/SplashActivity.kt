@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import com.example.whatsappclone_kotlin.R
 
+
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
