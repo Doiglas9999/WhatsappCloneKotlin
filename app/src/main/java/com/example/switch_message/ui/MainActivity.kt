@@ -1,10 +1,10 @@
-package com.example.whatsappclone_kotlin.ui
+package com.example.switch_message.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-import com.example.whatsappclone_kotlin.viewmodel.ViewPagerAdapter
-import com.example.whatsappclone_kotlin.databinding.ActivityMainBinding
+import com.example.switch_message.viewmodel.ViewPagerAdapter
+import com.example.switch_message.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

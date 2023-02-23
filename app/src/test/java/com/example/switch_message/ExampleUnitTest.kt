@@ -1,4 +1,4 @@
-package com.example.whatsappclone_kotlin
+package com.example.switch_message
 
 import org.junit.Test
 

@@ -1,18 +1,13 @@
-package com.example.whatsappclone_kotlin.ui
+package com.example.switch_message.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.view.WindowManager
-import androidx.appcompat.app.ActionBar
-import com.example.whatsappclone_kotlin.databinding.ActivitySplashBinding
-
-
-private lateinit var binding: ActivitySplashBinding
-import com.example.whatsappclone_kotlin.R
+import com.example.switch_message.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
+    private lateinit var binding: ActivitySplashBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

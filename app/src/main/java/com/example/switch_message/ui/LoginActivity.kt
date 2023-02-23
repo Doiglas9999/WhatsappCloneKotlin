@@ -1,11 +1,9 @@
-package com.example.whatsappclone_kotlin.ui
+package com.example.switch_message.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import com.example.whatsappclone_kotlin.R
-import com.example.whatsappclone_kotlin.databinding.ActivityLoginBinding
+import com.example.switch_message.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
 
