@@ -7,12 +7,14 @@ import android.os.Handler
 import android.view.WindowManager
 import androidx.appcompat.app.ActionBar
 import com.example.whatsappclone_kotlin.databinding.ActivitySplashBinding
-
-
-private lateinit var binding: ActivitySplashBinding
 import com.example.whatsappclone_kotlin.R
 
+
+
+
+
 class SplashActivity : AppCompatActivity() {
+    private lateinit var binding: ActivitySplashBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

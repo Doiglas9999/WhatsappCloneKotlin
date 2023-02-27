@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_main"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="menu"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/searchView"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="help"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+    <item
+        android:id="@+id/novo_grupo"
+        android:title="Novo grupo"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/configurações"
+        android:title="Configurações"
+        app:showAsAction="never"/>
+
+
+</menu>
