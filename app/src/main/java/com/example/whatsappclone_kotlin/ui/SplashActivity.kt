@@ -10,6 +10,10 @@ import com.example.whatsappclone_kotlin.databinding.ActivitySplashBinding
 
 
 private lateinit var binding: ActivitySplashBinding
+import com.example.whatsappclone_kotlin.R
+
+
+
 
 
 class SplashActivity : AppCompatActivity() {
